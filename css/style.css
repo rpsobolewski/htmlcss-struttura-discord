@@ -6,8 +6,8 @@
 
 
 
-.banner{
-    
+.banner {
+
     width: 80%;
     height: 100px;
     display: flex;
@@ -16,46 +16,119 @@
     margin: auto;
 }
 
-.col-2{
+section {
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 1170px;
+    height: 500px;
+    margin: auto;
+    padding-top: 50px
+}
+
+.container-2 {
+    width: 80%;
+    max-width: 1170px;
+    height: 1000px;
+    margin: auto;
+    padding-top: 50px
+}
+
+.row {
+    height: 400px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.col-2 {
     width: calc(100%/12*2);
     height: 60%;
     border: 1px solid black;
+    padding-top: 40px;
 }
-.col-8{
+
+.col-4 {
+    width: calc(100%/12*4);
+    height: 60%;
+    border: 1px solid black;
+    padding-top: 40px;
+}
+
+.col-8 {
     width: calc(100%/12*8);
     height: 60%;
-
     border: 1px solid black;
-    
+    padding-top: 40px;
+
 }
-.main{
+
+.card {
+    height: 80%;
+    width: 80%;
+    margin: auto;
+}
+
+.mainh {
     height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.box{
-    
+
+.box {
+
     height: 350px;
     width: 700px;
 }
 
 /*debug*/
-.debug .banner{
+.debug .banner {
     background-color: gray;
 
 }
-.debug .col-2{
+
+.debug .container {
+    background-color: orange;
+}
+
+.debug .container-2 {
+    background-color: orange;
+}
+
+
+.debug .row {
+    background-color: gray;
+}
+
+.debug .col-2 {
     background-color: salmon;
 }
-.debug .col-8{
+
+.debug .col-4 {
     background-color: salmon;
 }
-.debug .main{
+
+.debug .col-8 {
+    background-color: salmon;
+}
+
+.debug .mainh {
     background-color: plum;
 }
-.debug .box{
+
+.debug .box {
     background-color: lightskyblue;
+}
+
+.debug .card {
+    background-color: aquamarine;
 }
 
 
