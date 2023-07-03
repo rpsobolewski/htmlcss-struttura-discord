@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    width: 80%;
+    display: flex;
+}
+
+/*debug*/
+.debug .bananer{
+    background-color: gray;
+
+}
+.debug .col-2{
+    background-color: salmon;
+}
+.debug .col-8{
+    background-color: salmon;
+}
+
+
+/*debug*/
