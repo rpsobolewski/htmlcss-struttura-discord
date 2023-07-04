@@ -9,7 +9,6 @@
 .banner {
 
     width: 80%;
-    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +32,7 @@ big-section {
 .container {
     width: 80%;
     max-width: 1170px;
-    height: 500px;
+    
     margin: auto;
     padding-top: 50px;
     
@@ -54,14 +53,14 @@ footer{
 }
 
 .row {
-    height: 400px;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 }
 .rowb {
-    height: 500px;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -69,7 +68,7 @@ footer{
 }
 
 .rows {
-    height: 50px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,13 +80,11 @@ footer{
 .col-2 {
     width: calc(100%/12*2);
     height: 60%;
-    border: 1px solid black;
     padding-top: 40px;
 }
 .cols-2 {
     width: calc(100%/12*2);
     height: 60%;
-    border: 1px solid black;
     padding-top: 40px;
 }
 
@@ -95,14 +92,12 @@ footer{
 .col-4 {
     width: calc(100%/12*4);
     height: 60%;
-    border: 1px solid black;
     padding-top: 40px;
 }
 
 .col-8 {
     width: calc(100%/12*8);
     height: 60%;
-    border: 1px solid black;
     padding-top: 40px;
 
 }
@@ -124,26 +119,23 @@ footer{
 }
 
 .mainh {
-    height: 500px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.box {
 
-    height: 350px;
-    width: 700px;
-}
 
 /*debug*/
 .debug .banner {
     background-color: gray;
-
+    height: 100px;
 }
 
 .debug .container {
     background-color: orange;
+    height: 500px;
 }
 
 .debug .container-2 {
@@ -153,38 +145,34 @@ footer{
 
 .debug .row {
     background-color: gray;
+    height: 400px;
 }
 .debug .rowb {
     background-color: gray;
+    height: 500px;
 }
 .debug .rows {
     background-color: rgb(73, 73, 73);
+    height: 50px;
 }
 
 
-.debug .col-2 {
+.debug .col-2, .debug .cols-2, .debug .col-4,.debug .col-8  {
     background-color: salmon;
-}
-.debug .cols-2 {
-    background-color: salmon;
-}
-
-
-.debug .col-4 {
-    background-color: salmon;
-}
-
-.debug .col-8 {
-    background-color: salmon;
+    border: 1px dashed black;
 }
 
 .debug .mainh {
     background-color: plum;
+    height: 500px;
 }
 
 .debug .box {
     background-color: lightskyblue;
+    height: 350px;
+    width: 700px;
 }
+
 
 .debug .card {
     background-color: aquamarine;
